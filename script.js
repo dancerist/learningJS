@@ -16,3 +16,12 @@ function createEmail(firstName, price) {
 }
 
 createEmail("Guy", 100)
+
+
+// Searching strings - 4 different array methods
+
+const planet = "Earth";
+console.log(planet.startsWith("Ear")) //case sensitive
+console.log(planet.endsWith("rth")) //case sensitive
+console.log(planet.includes("s")) //case sensitive
+console.log(planet.search("E")) //case sensitive
