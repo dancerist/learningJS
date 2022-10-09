@@ -1,3 +1,4 @@
+// Template String
 function print(firstName) {
     console.log("Hello " + firstName);
 
